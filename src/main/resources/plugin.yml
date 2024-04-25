@@ -1,0 +1,10 @@
+name: SurvivalBlockTracker
+author: Maxlego08
+main: fr.maxlego08.survival.SurvivalPlugin
+website: https://groupez.dev
+description: Get all the minecraft blocks!
+version: 1.0.0
+api-version: 1.20
+depend:
+  - PlaceholderAPI
+commands:
