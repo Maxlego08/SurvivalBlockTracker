@@ -77,7 +77,7 @@ public class SurvivalPlugin extends JavaPlugin implements Listener {
 
 
                     if (collectedMaterials.containsAll(survivableBlocks)) {
-                        player.sendMessage("Incroyable ! Vous avez collecté tous les blocs récupérables en survie !");
+                        message(player, "all-block-message");
                     }
 
                     this.persist.save(this.users);
